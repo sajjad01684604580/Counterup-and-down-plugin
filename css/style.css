@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* counterup heading part start */
+#counterup-heading, #counterdown-heading{
+    padding: 30px 0;
+
+}
+.counterup-head, .counterdown-head{
+    text-align: center;
+}
+.counterup-head h1, .counterdown-head h1{
+    text-transform: uppercase;
+    color: #666;
+}
+.counterdown-head h1{
+    color: orange;
+    text-transform: uppercase;
+}
+/* counterup heading part end */
+
+/* counterup part start */
+#counter-part{
+    padding: 50px 0;
+    background-color: green;
+}
+.item-part{
+    display: flex;
+}
+.item{
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+/* counterup part end */
+
+/* counter down part start */
+#counter-down{
+    background-color: gray;
+    padding: 50px 0;
+}
+.counterdown-part{
+    display: flex;
+    justify-content: space-between;
+}
+.counterdown-item{
+    width: 18%;
+    background-color: indigo;
+    padding: 30px;
+    text-align: center;
+    
+}
+.counterdown-item h1{
+    color: white;
+}
+/* counter down part end */
